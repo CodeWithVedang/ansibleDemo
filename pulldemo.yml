@@ -5,9 +5,4 @@
       - name: print hello world
         debug:
             msg: "Hello World..."
-      - name: print host name
-        debug:
-            var: ansible_hostname
-      - name: print Ubantu Version
-        debug:
-            msg: ansible_distribution
+     
